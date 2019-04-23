@@ -1,0 +1,101 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme', sans-serif;
+}
+
+.header {
+	background-color: #FE7A06;
+	margin-bottom: 40px;
+	padding: 0;
+	width: 100%;
+}
+
+.header img {
+	width: 100px;
+	padding: 0 0 5px 0;
+}
+
+.header h1 {
+	display: inline-block;
+	color: #fff;
+	font-size: 6rem;
+}
+
+.meme {
+	position: relative;
+}
+
+.top-caption,
+.bottom-caption {
+	font-family: 'Architects Daughter', cursive;
+	color: #fff;
+	text-shadow: #000 0px 0px 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+}
+
+.top-caption {
+	top: 10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.bottom-caption {
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.tool h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 2.5em;
+}
+
+.tool form label {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.tool input {
+	border-radius: 0;
+	border: 0;
+	border-bottom: 5px solid #75229b;
+	box-shadow: none;
+	
+}
+
+input[type="text"]:focus {
+	border: 0;
+	border-bottom: 5px solid #FE7A06;
+	outline: 0;
+	box-shadow: none;
+}
+
+footer {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+	.header h1 {
+		font-size: 3.2rem;
+	}
+	.meme h2 {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.meme {
+		margin-bottom: 40px;
+	}
+}
